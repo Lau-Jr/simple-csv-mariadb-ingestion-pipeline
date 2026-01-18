@@ -1,0 +1,1 @@
+docker run -d --name mariadb-container -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=testdb -p 3307:3306 mariadb:latest
